@@ -11,9 +11,9 @@ export default function Header() {
           priority
         />
       </div>
-      <nav className="hidden md:flex items-center gap-8 mr-18">
-        <a href="#" className="text-white hover:text-gray-300 transition-colors">About us</a>
-        <a href="#" className="text-white hover:text-gray-300 transition-colors">Contact</a>
+      <nav className="hidden md:flex items-center gap-10 mr-18">
+        <a href="#" className="text-[#A9A9A9] hover:text-gray-300 transition-colors">About us</a>
+        <a href="#" className="text-[#A9A9A9] hover:text-gray-300 transition-colors">Contact</a>
       </nav>
       <button className="md:hidden text-white">
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
