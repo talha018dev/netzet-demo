@@ -7,13 +7,13 @@ const features = [
 
 export default function Features() {
   return (
-    <div className="space-y-3 lg:space-y-4 mb-6 lg:mb-8">
+    <div className="space-y-3 mb-7">
       {features.map((feature, index) => (
         <div key={index} className="flex items-start gap-3 text-left lg:text-left">
           <span className="text-yellow-400 text-lg">✨</span>
-          <p className="text-base lg:text-lg">{feature}</p>
+          <p className={`text-base ${index === 0 ? 'font-figtree' : ''}`}>{feature}</p>
         </div>
       ))}
     </div>
-  );
+  )
 } 

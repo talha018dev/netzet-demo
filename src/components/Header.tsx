@@ -3,7 +3,7 @@ import logoDesktop from '../../public/logo-desktop.png';
 
 export default function Header() {
   return (
-    <header className="max-w-[80%] mx-auto flex justify-between items-center px-4 py-6 lg:px-8">
+    <header className="max-w-[80%] mx-auto flex justify-between items-start mt-9">
       <div className="flex items-center">
         <Image
           src={logoDesktop}
