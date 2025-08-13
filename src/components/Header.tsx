@@ -1,19 +1,17 @@
 import Image from 'next/image';
+import logoDesktop from '../../public/logo-desktop.png';
 
 export default function Header() {
   return (
-    <header className="flex justify-between items-center px-4 py-6 lg:px-8">
+    <header className="max-w-[80%] mx-auto flex justify-between items-center px-4 py-6 lg:px-8">
       <div className="flex items-center">
         <Image
-          src="/logo.png"
+          src={logoDesktop}
           alt="Fametonic Logo"
-          width={173}
-          height={74}
-          className="h-8 w-auto"
           priority
         />
       </div>
-      <nav className="hidden md:flex items-center gap-8">
+      <nav className="hidden md:flex items-center gap-8 mr-18">
         <a href="#" className="text-white hover:text-gray-300 transition-colors">About us</a>
         <a href="#" className="text-white hover:text-gray-300 transition-colors">Contact</a>
       </nav>

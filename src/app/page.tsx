@@ -9,13 +9,12 @@ export default function Home() {
     <div className="min-h-screen bg-black text-white font-urbanist">
       <Banner />
       <Header />
-      
-      {/* Main Content */}
+
       <main className="pb-8">
         <MainLayout />
       </main>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
