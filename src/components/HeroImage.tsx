@@ -8,6 +8,10 @@ export default function HeroImage() {
         src={heroImage}
         alt="Fametonic App Interface"
         priority
+        // width={666}
+        // height={679}
+        // className="w-full h-auto object-contain"
+        sizes="(max-width: 768px) 100vw,(max-width: 1050px) 50vw"
       />
     </div>
   );
