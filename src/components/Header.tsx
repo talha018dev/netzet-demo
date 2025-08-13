@@ -1,8 +1,17 @@
+import Image from 'next/image';
+
 export default function Header() {
   return (
     <header className="flex justify-between items-center px-4 py-6 lg:px-8">
-      <div className="text-2xl font-bold gradient-text">
-        fame tonic
+      <div className="flex items-center">
+        <Image
+          src="/logo.png"
+          alt="Fametonic Logo"
+          width={173}
+          height={74}
+          className="h-8 w-auto"
+          priority
+        />
       </div>
       <nav className="hidden md:flex items-center gap-8">
         <a href="#" className="text-white hover:text-gray-300 transition-colors">About us</a>
