@@ -4,7 +4,7 @@ import logoDesktop from '../../public/logo-desktop.png';
 export default function Header() {
   return (
     <header className="max-w-[80%] mx-auto flex justify-between items-start mt-9">
-      <div className="flex items-center">
+      <div className="flex items-center mx-auto md:ml-0 md:mr-auto">
         <Image
           src={logoDesktop}
           alt="Fametonic Logo"
@@ -21,5 +21,5 @@ export default function Header() {
         </svg>
       </button>
     </header>
-  );
+  )
 } 
