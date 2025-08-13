@@ -7,12 +7,9 @@ export default function Home() {
     <div className="min-h-screen bg-black text-white font-urbanist">
       <Banner />
       <Header />
-
       <main className="pb-8">
         <MainLayout />
       </main>
-
-      {/* <Footer /> */}
     </div>
   );
 }
