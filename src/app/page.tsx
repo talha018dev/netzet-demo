@@ -11,7 +11,7 @@ export default function Home() {
       <Header />
       
       {/* Main Content */}
-      <main className="px-4 lg:px-8 pb-8">
+      <main className="pb-8">
         <MainLayout />
       </main>
 
